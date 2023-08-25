@@ -1,5 +1,7 @@
 local httpService = game:GetService("HttpService")
 
+print("Loading: SaveManager.lua");
+
 local SaveManager = {} do
 	SaveManager.Folder = "FluentSettings"
 	SaveManager.Ignore = {}
