@@ -3,8 +3,8 @@ local httpService = game:GetService("HttpService") -- Http
 local InterfaceManager = {} do
 	InterfaceManager.Folder = "FluentSettings"
     InterfaceManager.Settings = {
-        Theme = "Amethyst",
-        Acrylic = true,
+        Theme = "Dark",
+        Acrylic = false,
         Transparency = true,
         MenuKeybind = "LeftControl"
     }
