@@ -1,47 +1,49 @@
+
+
+
 return {
-	Name = "Amethyst",
-	Accent = Color3.fromRGB(97, 62, 167),
+    Accent = Color3.fromHex("#e32b00"),
 
-	AcrylicMain = Color3.fromRGB(20, 20, 20),
-	AcrylicBorder = Color3.fromRGB(110, 90, 130),
-	AcrylicGradient = ColorSequence.new(Color3.fromRGB(85, 57, 139), Color3.fromRGB(40, 25, 65)),
-	AcrylicNoise = 0.92,
+    AcrylicMain = Color3.fromHex("#130c0f"),
+    AcrylicBorder = Color3.fromHex("#28191d"),
+    AcrylicGradient = ColorSequence.new(Color3.fromHex("#130c0f"), Color3.fromHex("#130c0f")),
+    AcrylicNoise = 0.92,
 
-	TitleBarLine = Color3.fromRGB(95, 75, 110),
-	Tab = Color3.fromRGB(160, 140, 180),
+    TitleBarLine = Color3.fromHex("#28191d"),
+    Tab = Color3.fromHex("#d3d0c8"),
 
-	Element = Color3.fromRGB(140, 120, 160),
-	ElementBorder = Color3.fromRGB(60, 50, 70),
-	InElementBorder = Color3.fromRGB(100, 90, 110),
-	ElementTransparency = 0.87,
+    Element = Color3.fromHex("#321f27"),
+    ElementBorder = Color3.fromHex("#5a0d29"),
+    InElementBorder = Color3.fromHex("#e32b00"),
+    ElementTransparency = 0.85,
 
-	ToggleSlider = Color3.fromRGB(140, 120, 160),
-	ToggleToggled = Color3.fromRGB(0, 0, 0),
+    ToggleSlider = Color3.fromHex("#e32b00"),
+    ToggleToggled = Color3.fromHex("#130c0f"),
 
-	SliderRail = Color3.fromRGB(140, 120, 160),
+    SliderRail = Color3.fromHex("#e32b00"),
 
-	DropdownFrame = Color3.fromRGB(170, 160, 200),
-	DropdownHolder = Color3.fromRGB(60, 45, 80),
-	DropdownBorder = Color3.fromRGB(50, 40, 65),
-	DropdownOption = Color3.fromRGB(140, 120, 160),
+    DropdownFrame = Color3.fromHex("#321f27"),
+    DropdownHolder = Color3.fromHex("#271e22"),
+    DropdownBorder = Color3.fromHex("#5a0d29"),
+    DropdownOption = Color3.fromHex("#d3d0c8"),
 
-	Keybind = Color3.fromRGB(140, 120, 160),
+    Keybind = Color3.fromHex("#321f27"),
 
-	Input = Color3.fromRGB(140, 120, 160),
-	InputFocused = Color3.fromRGB(20, 10, 30),
-	InputIndicator = Color3.fromRGB(170, 150, 190),
+    Input = Color3.fromHex("#321f27"),
+    InputFocused = Color3.fromHex("#321f27"),
+    InputIndicator = Color3.fromHex("#747369"),
 
-	Dialog = Color3.fromRGB(60, 45, 80),
-	DialogHolder = Color3.fromRGB(45, 30, 65),
-	DialogHolderLine = Color3.fromRGB(40, 25, 60),
-	DialogButton = Color3.fromRGB(60, 45, 80),
-	DialogButtonBorder = Color3.fromRGB(95, 80, 110),
-	DialogBorder = Color3.fromRGB(85, 70, 100),
-	DialogInput = Color3.fromRGB(70, 55, 85),
-	DialogInputLine = Color3.fromRGB(175, 160, 190),
+    Dialog = Color3.fromHex("#462531"),
+    DialogHolder = Color3.fromHex("#3a1223"),
+    DialogHolderLine = Color3.fromHex("#5c1b33"),
+    DialogButton = Color3.fromHex("#321f27"),
+    DialogButtonBorder = Color3.fromHex("#5a0d29"),
+    DialogBorder = Color3.fromHex("#ff4f15"),
+    DialogInput = Color3.fromHex("#321f27"),
+    DialogInputLine = Color3.fromHex("#e32b00"),
 
-	Text = Color3.fromRGB(240, 240, 240),
-	SubText = Color3.fromRGB(170, 170, 170),
-	Hover = Color3.fromRGB(140, 120, 160),
-	HoverChange = 0.04,
+    Text = Color3.fromHex("#d3d0c8"),
+    SubText = Color3.fromHex("#747369"),
+    Hover = Color3.fromHex("#5c1b33"),
+    HoverChange = 0.05
 }
